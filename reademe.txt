@@ -1,3 +1,21 @@
 Link do rozwiązania: 
 
 https://icp.ninja/i?s=GmDNJ
+
+Dodawanie hasha i danych 
+
+wsl bash -c "~/HashBin/hashbin/hashBin.sh 5nevn-xqaaa-aaaab-aaeja-cai addEntry '1' '2' '3' '4'"
+
+-------------------------------------------------
+
+Pobieranie wszystkich obiektów
+
+wsl bash -c "~/HashBin/hashbin/hashBin.sh 5nevn-xqaaa-aaaab-aaeja-cai getAll"
+
+-------------------------------------------------
+
+Pobieranie po Hashu
+
+wsl bash -c "~/HashBin/hashbin/hashBin.sh 5nevn-xqaaa-aaaab-aaeja-cai getByHash 'fe20b6c1bf76063e00f91195b52ded74967c5d7e57218f412ffec2bf11c67785'"
+
+-------------------------------------------------
