@@ -22,3 +22,5 @@ wsl bash -c "~/HashBin/hashbin/hashBin.sh 5nevn-xqaaa-aaaab-aaeja-cai getByHash 
 
 
 export PATH="$HOME/.local/share/dfx/bin:$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+
+wsl -d Ubuntu -u klik -- /bin/bash /home/klik/script.sh
